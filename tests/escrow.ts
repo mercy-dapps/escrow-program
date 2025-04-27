@@ -29,7 +29,6 @@ describe("escrow", () => {
 
   const program = anchor.workspace.Escrow as Program<Escrow>;
 
-  const programId = program.programId;
   const tokenProgram = TOKEN_2022_PROGRAM_ID;
 
   const confirm = async (signature: string): Promise<string> => {

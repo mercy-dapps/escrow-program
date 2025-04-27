@@ -125,24 +125,4 @@ impl<'info> Take<'info> {
        close_account(close_cpi_ctx)
 
     }
-
-    // pub fn close(&mut self) -> Result<()> {
-    //    let close_accounts = CloseAccount{
-    //     account: self.vault.to_account_info(),
-    //     destination: self.maker.to_account_info(),
-    //     authority: self.escrow.to_account_info()
-    //    };
-
-    //    let seeds = &[
-    //         b"escrow",
-    //         self.maker.to_account_info().key.as_ref(), &self.escrow.seed.to_le_bytes()[..],
-    //         &[self.escrow.bump]
-    //     ];
-
-    //     let signer_seeds = &[&seeds[..]];
-
-    //    let close_cpi_ctx = CpiContext::new_with_signer(self.token_program.to_account_info(), close_accounts, signer_seeds);
-
-    //    close_account(close_cpi_ctx)
-    // }
 }
