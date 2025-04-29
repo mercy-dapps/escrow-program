@@ -16,7 +16,6 @@ import {
   getMinimumBalanceForRentExemptMint,
   getAssociatedTokenAddressSync,
   TOKEN_2022_PROGRAM_ID,
-  getOrCreateAssociatedTokenAccount,
 } from "@solana/spl-token";
 import { BN } from "bn.js";
 import { randomBytes } from "crypto";
