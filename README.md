@@ -48,7 +48,7 @@ Built using **Anchor** and tested locally, this project demonstrates how to hand
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/escrow.git
+git clone https://github.com/mercy-dapps/escrow-program.git
 cd escrow
 npm install
 ```
